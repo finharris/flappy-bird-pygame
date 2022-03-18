@@ -29,9 +29,9 @@ bird_y = height/2
 bird_x = width/5
 bird_rect = bird.get_rect()
 bird_velocity = 0
-bird_acceleration = 0.009
-bird_max_up_velocity = -0.4
-bird_jump_velocity = 0.4
+bird_acceleration = 0.02
+bird_max_up_velocity = -0.5
+bird_jump_velocity = 0.5
 
 class Pipe:
   x = width
@@ -85,6 +85,7 @@ while running:
       pipe.destroy()
     
     pipe.setx(pipe.x - pipe.speed)
+    
     
   # check if bird is in pipe collide
   
