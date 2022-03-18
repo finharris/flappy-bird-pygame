@@ -1,0 +1,5 @@
+var velocity (overall)
+var downward acceleration
+
+each loop multiply velocity by acceleration 
+add/minus velocity from vertical height
